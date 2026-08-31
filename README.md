@@ -11,6 +11,8 @@ These are structurally the same idea. These are just applied at different moment
 
 This experiment tests whether that distinction matters in practice.  
 
+> Read detailed blog:- [Random In vs. Random Out: Evaluating Initial State Variance against Token-Wise Sampling in Open-Weight LLMs](https://www.byganesh.com/blog/latent-noise-reasoning-experiment)
+
 ## Experiment Setup
 
 | | |
@@ -123,5 +125,5 @@ python experiment/analysis.py
 ## Credits
 
 - **Author:** [Ganesh Kumar](https://byganesh.com)  
-- Experiment design inspired by [Dan Wood](https://www.linkedin.com/in/danwood1971/)'s post on the Random In / Random Out framing of Latent Space Reasoning.  
+- Experiment design inspired by [Dan Wood](hhttps://www.linkedin.com/posts/dan-wood-8674b51_thoughts-on-devansh-devanshs-latent-space-activity-7491615222902910976-ZtIu)'s post on the Random In / Random Out framing of Latent Space Reasoning.  
 - Model: [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) by Alibaba Cloud
