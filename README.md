@@ -76,9 +76,9 @@ Architecture         0.20     0.0000             0.0000         1.0000
 
 **The Goldilocks Zone: noise = 0.02**
 
-Too little noise → identical outputs, no exploration.
-Too much noise → the model forgets the question entirely.
-Just right (0.02) → genuine diversity, zero collapse.
+Too little noise → identical outputs, no exploration.  
+Too much noise → the model forgets the question entirely.  
+Just right (0.02) → genuine diversity, zero collapse.  
 
 ![Self-BLEU](assets/figures/self_bleu.png)
   
@@ -122,6 +122,6 @@ python experiment/analysis.py
 
 ## Credits
 
-- Experiment design inspired by [Dan Wood](https://www.linkedin.com/in/danwood1971/)'s post on Latent Space Reasoning and the Random In / Random Out framing
+- **Author:** [Ganesh Kumar](https://byganesh.com)  
+- Experiment design inspired by [Dan Wood](https://www.linkedin.com/in/danwood1971/)'s post on the Random In / Random Out framing of Latent Space Reasoning.  
 - Model: [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) by Alibaba Cloud
-- Written by [Ganesh Kumar](https://byganesh.com)
